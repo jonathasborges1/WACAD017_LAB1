@@ -1,12 +1,14 @@
-name: Hello Flow
+name: Fluxo de Trabalho Agendado
+
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'  # Executar a cada minuto
+
 jobs:
-  first_job:
+  agendado_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Diga oii
-        run: echo "Hello World!"
-      - name: Diga valeu
-        run: echo "Valeu - bye!"
+      - name: Passo 1
+        run: echo "Executando o passo 1"
+      - name: Passo 2
+        run: echo "Executando o passo 2"
