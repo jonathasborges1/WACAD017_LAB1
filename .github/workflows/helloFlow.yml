@@ -1,4 +1,4 @@
-name: hellowFlow
+name: helloFlow
 
 on:
   schedule:
