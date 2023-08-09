@@ -6,7 +6,7 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps:
-      - name: Diga oi
+      - name: Diga oii
         run: echo "Hello World!"
       - name: Diga valeu
         run: echo "Valeu - bye!"
