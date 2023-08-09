@@ -1,4 +1,4 @@
-name: Fluxo de Trabalho Agendado
+name: hellowFlow
 
 on:
   schedule:
